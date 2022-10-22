@@ -40,6 +40,14 @@
 
         <div class="row px-3">
             <div class="col">
+                @section('previous-requests')
+
+                @show
+            </div>
+        </div>
+
+        <div class="row px-3">
+            <div class="col">
                 @yield('content')
             </div>
         </div>

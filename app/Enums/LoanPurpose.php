@@ -3,13 +3,13 @@
 namespace App\Enums;
 
 enum LoanPurpose : string {
-    case debt_consolidation = "Debt Consolidation";
-    case car_purchase = "Car Purchase";
-    case car_other = "Car - Other";
-    case short_term_cash = "Short Term Cash";
-    case home_improvements = "Home Improvements";
-    case pay_bills = "Pay Bills";
-    case one_off_purchase = "One Off Purchase";
-    case special_occasion = "Special Occasion";
-    case other = "Other";
+    case debt_consolidation = "debt_consolidation";
+    case car_purchase = "car_purchase";
+    case car_other = "car_other";
+    case short_term_cash = "short_term_cash";
+    case home_improvements = "home_improvements";
+    case pay_bills = "pay_bills";
+    case one_off_purchase = "one_off_purchase";
+    case special_occasion = "special_occasion";
+    case other = "other";
 }

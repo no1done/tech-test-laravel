@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,8 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('api-form');
-});
+Route::get('/', [Controller::class, 'form']);
 
-Route::post('/', [\App\Http\Controllers\Controller::class, 'process']);
+Route::post('/', [Controller::class, 'process']);

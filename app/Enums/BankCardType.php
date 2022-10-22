@@ -4,12 +4,12 @@ namespace App\Enums;
 
 enum BankCardType : string
 {
-    case solo = "Solo";
-    case switch_maestro = "Switch Maestro";
-    case visa = "Visa";
-    case visa_debit = "Visa Debit";
-    case visa_delta = "Visa Delta";
-    case visa_electron = "Visa Electron";
-    case mastercard = "Mastercard";
-    case mastercard_debit = "Mastercard Debit";
+    case solo = "solo";
+    case switch_maestro = "switch_maestro";
+    case visa = "visa";
+    case visa_debit = "visa_debit";
+    case visa_delta = "visa_delta";
+    case visa_electron = "visa_electron";
+    case mastercard = "mastercard";
+    case mastercard_debit = "mastercard_debit";
 }

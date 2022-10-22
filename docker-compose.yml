@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+
+    app:
+        build: .
+        ports:
+            - 39101:80
+        volumes:
+            - .:/var/www
+
+    db:
+        image: mysql:latest
+        volumes:
+            - ./db_data:/var/lib/mysql
+        ports:
+            - 33064:3306
+        #    command: --sql_mode=""
+        environment:
+            MYSQL_DATABASE: apimediablanket
+            MYSQL_USER: admin
+            MYSQL_PASSWORD: pw
+            MYSQL_ROOT_PASSWORD: password

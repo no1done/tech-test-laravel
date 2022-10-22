@@ -3,11 +3,11 @@
 namespace App\Enums;
 
 enum MaritalStatus : string {
-    case single = "Single";
-    case married = "Married";
-    case living_together = "Living Together";
-    case separated = "Separated";
-    case divorced = "Divorced";
-    case widowed = "Widowed";
-    case other = "Other";
+    case single = "single";
+    case married = "married";
+    case living_together = "living_together";
+    case separated = "separated";
+    case divorced = "divorced";
+    case widowed = "widowed";
+    case other = "other";
 }

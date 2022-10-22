@@ -4,9 +4,9 @@ namespace App\Enums;
 
 enum Title : string
 {
-    case mr = "Mr";
-    case mrs = "Mrs";
-    case miss = "Miss";
-    case ms = "Ms";
-    case dr = "Dr";
+    case mr = "mr";
+    case mrs = "mrs";
+    case miss = "miss";
+    case ms = "ms";
+    case dr = "dr";
 }
