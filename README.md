@@ -12,4 +12,4 @@ This hasn't been tested, I'm just playing around with the validators and custom 
 
 Added DB to add in each request set of data from form input, will then add in a simple button to use that data to create CURL request,and then store the result in related table.
 
-Note: Some of these Laravel 9 features are 🔥.
+Note: Some of these Laravel 8/9 features are 🔥.
