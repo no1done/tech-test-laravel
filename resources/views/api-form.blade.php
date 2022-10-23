@@ -34,6 +34,13 @@ use App\Enums\Title;
             </div>
         @endif
 
+        @if (session('status'))
+            <div class="alert alert-success">
+                {{ session('status') }}
+                {{ print_r(session('data')) }}
+            </div>
+        @endif
+
         <div class="row">
             <div class="col-12">
                 <h4 class="d-block mt-3" style="border-bottom:solid 1px #000;">Loan Information</h4>

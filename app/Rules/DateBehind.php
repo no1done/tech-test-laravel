@@ -18,6 +18,7 @@ class DateBehind implements InvokableRule
     {
         $today = new \DateTime();
         $provided = new \DateTime($value);
+        $value = $provided->format('d-m-Y');
         if ($provided > $today) {
             $fail('The :attribute must be a past date.');
         }
